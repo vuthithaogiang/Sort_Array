@@ -63,8 +63,5 @@ int main()
 	showElementArray(numbers, sizeOfArray);
 
 
-
-
-
 	return 0;
 }

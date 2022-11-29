@@ -4,7 +4,7 @@
 #include<string.h>
 #define SIZE 30
 
-int findCharacterInString(char str[], int leftIndex, int rightIndex, char c) {
+int findCharacterInString(char str[], int leftIndex, int rightIndex, char c) { // binary search
 
 	while (leftIndex <= rightIndex) {
 
@@ -41,7 +41,7 @@ int main() {
 	printf("Enter character that need to find in string: ");
 	scanf("%c", &c);
 
-	int indexOfCharacterInStrind = findCharacterInString(str, 0, strlen(str) - 2, c);
+	int indexOfCharacterInStrind = findCharacterInString(str, 0, strlen(str) - 1, c);
 
 	printf("%d", indexOfCharacterInStrind);
 

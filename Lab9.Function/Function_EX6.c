@@ -29,6 +29,10 @@ double calculateAreaTriangle(double a, double b, double c) {
 	return sqrt(p * (p - a) * (p - b) * (p - c));
 }
 
+double calculateAreaRectangle(double lenght, double width) {
+	return lenght * width;
+}
+
 int main() {
 	int choice = 0;
 	do {
@@ -56,7 +60,7 @@ int main() {
 			double side3 = getValueSide();
 
 			if (isTriangle(side1, side2, side3)) {
-				printf("Result = %f", calculateAreaTriangle(side1, side2, side3));
+				printf("\nResult area of triangle = %lf", calculateAreaTriangle(side1, side2, side3));
 			}
 			else {
 				printf("\nInvalid value side of triangle.");
@@ -70,15 +74,30 @@ int main() {
 
 			if (length > 0 && width > 0) {
 
+				printf("\nResult area of rectangle = %lf", calculateAreaRectangle(length, width));
+
 			}
 			else {
-
+				printf("\nInvalid value side of rectangle.");
 			}
 			break;
 		}
 		case 3:
 		{
+			double height = getValueSide();
 
+			double smallBottonSide = getValueSide();
+
+			double bigBottonSide = getValueSide();
+
+
+			if (height > 0 && smallBottonSide > 0 && bigBottonSide > 0) {
+
+			}
+			else {
+				printf("\nInvalid value side of trapezium.");
+			}
+			break;
 		}
 		case 4:
 		{

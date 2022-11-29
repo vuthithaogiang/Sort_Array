@@ -21,6 +21,9 @@
     <ClCompile Include="Ex2.2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ex2,nanncao.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Ex1.nangcao.c">
