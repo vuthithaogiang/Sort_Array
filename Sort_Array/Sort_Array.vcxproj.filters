@@ -18,10 +18,13 @@
     <ClCompile Include="Sort_Array.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ex2.2.c">
+    <ClCompile Include="BinarySearch.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ex2,nanncao.c">
+    <ClCompile Include="QuickSort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex2.nangcao.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
