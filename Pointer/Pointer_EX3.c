@@ -30,7 +30,7 @@ int main() {
 	auto isSymmetric = checkStringSymmetric(str);
 
 	if (isSymmetric == true) {
-		printf("\nString is symmtric.");
+		printf("\nString is symmetric.");
 	}
 	else {
 		printf("\nString is not symmetric.");
